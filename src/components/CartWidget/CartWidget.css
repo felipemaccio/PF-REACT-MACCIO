@@ -1,0 +1,13 @@
+.seeCarrito {
+    font-size: 19px;
+    margin-right: 20px;
+    padding: 3px;
+    cursor: pointer;
+    color: white;
+}
+
+.seeCarrito img {
+    height: 21px;
+    filter: invert(100%);
+}
+
