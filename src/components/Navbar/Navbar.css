@@ -20,11 +20,16 @@
     margin-left: 10px;
 }
 
-.button-navbar {
-    color: white;
-    background-color: #1b1b1b;
-    padding: 9px;
+.li-navbar {
+    list-style: none;
 }
 
+.li-navbar:hover {
+    transform: translateY(-1px);
+}
 
+.link-custom {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 

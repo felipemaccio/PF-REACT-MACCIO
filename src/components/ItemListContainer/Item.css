@@ -1,0 +1,48 @@
+.item-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    text-align: center;
+    justify-content: center;
+    background-color: #6e9182;
+}
+
+.item-card:hover {
+    transform: translateY(-4px);
+}
+
+.item-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.item-title, .item-price, .link-item {
+    margin: 10px 0;
+}
+
+.item-title {
+    font-size: 14px;
+    color: #212121;
+}
+
+.item-price {
+    font-size: 14px;
+    color: #e9e9e9;
+}
+
+.item-card .link-item {
+    color: rgb(211, 211, 211);
+    text-decoration: none;
+    font-size: 14px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.item-card .link-item:hover {
+    text-decoration: underline;
+}
+

@@ -1,14 +1,15 @@
 .ItemListContainer {
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
+    background-attachment: fixed;
     background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
     url("https://images.pexels.com/photos/3990359/pexels-photo-3990359.jpeg");
 }
 
 .ItemListContainer-container {
     text-align: center;
-    padding: 15% 0;
+    padding: 5% 0;
 }
 
 .ItemListContainer h1 {
@@ -19,10 +20,5 @@
     font-weight: bold;
 }
 
-.ItemListContainer p {
-    font-size: 30px;
-    color: white;
-    opacity: 0.7;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-}
+
 
