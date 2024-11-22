@@ -4,6 +4,9 @@
     padding: 3px;
     cursor: pointer;
     color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .seeCarrito img {
