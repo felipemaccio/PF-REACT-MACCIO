@@ -1,4 +1,4 @@
-import "./Navbar.css"
+import "./Navbar.css";
 import logo from "../../assets/logo corralon sur.png"; 
 import CartWidget from "../CartWidget/CartWidget"
 import { Link } from "react-router-dom";
